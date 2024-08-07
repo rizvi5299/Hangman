@@ -14,10 +14,10 @@ public class Main {
             while (true) {
                 String difficultyinput = scanner.next();
                 if (difficultyinput.equalsIgnoreCase("easy")) {
-                    start.hangmangame(HANGMAN.easyWords, 13, "easy");
+                    start.hangmangame(HANGMAN.easyWords, 15, "Easy");
                     break;
                 } else if (difficultyinput.equalsIgnoreCase("medium")) {
-                    start.hangmangame(HANGMAN.mediumWords,15, "medium");
+                    start.hangmangame(HANGMAN.mediumWords,15, "Medium");
                     break;
                 } else if (difficultyinput.equalsIgnoreCase("hard")) {
                     start.hangmangame(HANGMAN.hardWords,14, "hard");
