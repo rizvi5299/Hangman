@@ -20,7 +20,7 @@ public class Main {
                     start.hangmangame(HANGMAN.mediumWords,15, "Medium");
                     break;
                 } else if (difficultyinput.equalsIgnoreCase("hard")) {
-                    start.hangmangame(HANGMAN.hardWords,14, "hard");
+                    start.hangmangame(HANGMAN.hardWords,14, "Hard");
                     break;
                 } else System.out.print("Please only enter the difficulty: Easy, Medium, or Hard. ");
             }
